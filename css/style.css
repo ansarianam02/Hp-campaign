@@ -1,0 +1,714 @@
+
+.carousal-row{
+  margin-left: -20px;
+}
+.carousal-padding-0{
+  padding: 0;
+}
+#carouselExampleIndicators{
+  height: 100%;
+}
+
+.carousel-inner{
+  height: 100%;
+}
+
+.carousel-inner .w-100 {
+    width: 101%!important;
+}
+.carousel-item{
+  height: 100%
+}
+img.d-block.w-100 {
+    height: 36em;
+}
+/*img.d-block.w-100 {
+    height: 14em;
+}*/
+span.fire::before {
+    background: url(../img/fire.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    display: inline-block;
+    height: 180px;
+    width: 210px;
+    position: absolute;
+    right: -43px;
+    top: 33%;
+}
+span.fire::after {
+    background: url(../img/fire.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    display: inline-block;
+    height: 180px;
+    width: 210px;
+    position: absolute;
+    left: -43px;
+    top: 33%;
+}
+.term-container{
+  background: #ffffff;
+  color: #4a4a4a;
+  font-size: 1em;
+}
+
+.nav-only-cell{
+  display: none;
+}
+.banner-container {
+   background: url(../img/mbl-banner.png);
+   background-size: 100% 92%;
+   background-position: 0 2rem;
+   background-repeat: no-repeat;
+}
+
+.banner-container .fake{
+    height: 13em;
+    width: 75%;
+}
+.happ-container {
+  background: url(../img/happiness.png);
+    background-size: 47% 100%;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
+
+.happ-container .fake{
+    height: 75px;
+    width: 75%;
+}
+.mega-container {
+ background: url(../img/mega.png);
+    background-size: 39% 64%;
+    background-position: 52% 0%;
+    background-repeat: no-repeat;
+}
+
+.mega-container .fake{
+    height: 130px;
+    width: 76%;
+}
+
+.cursor{
+  cursor: pointer; 
+}
+.NotValid{
+  visibility: visible; /*set it to hidden*/
+}
+.modal-header{
+  text-align: center;
+}
+.modal-header .close{
+      position: absolute;
+    right: -20px;
+    top: -18px;
+    background: white;
+    border-radius: 50%;
+    padding: 4px 9px;
+    opacity: 1;
+    box-shadow: -1px 0px 7px 0px #999;
+}
+.justify-content-md-center{
+  text-align: center
+}
+.doorContainer{
+  display: inline-block;
+  position: relative;
+}
+.happiness::before{
+ content: '';
+    display: inline-block;
+    background: url(../img/happiness.png);
+    background-repeat: no-repeat;
+    width: 69%;
+    height: 32%;
+    position: absolute;
+    top: -151px;
+    left: 53px;
+}
+
+.congrats-msg::before{
+    content: '';
+    background: url(../img/congratulations.svg);
+    height: 8%;
+    width: 26%;
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: 37%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.backImg{
+        background: url(../img/backImg.png);
+    height: 36rem;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 12.7em;
+    display: inline-block;
+    width: 17em;
+    left: 0.4rem;
+}
+.font-weight-bold {
+    font-weight: 700!important;
+  }
+
+
+  /*modal position*/
+.modal-body.claim-body{
+  position: relative;
+  margin: 1rem 0;
+  text-align: center;
+}
+.modal-body.claim-body p{
+  margin-top: 1rem;
+      text-align: center;
+}
+.modal-body.claim-body p{
+  margin-top: 1rem;
+      text-align: center;
+}
+.modal-body.claim-body::before {
+    content: '';
+    background: url('../img/success.svg');
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 10rem;
+    width: 29rem; 
+}
+.details .modal-dialog{
+  margin-top: 15rem;
+}
+button.btn.btn-claim.btn-claim {
+    border-radius: 0.3rem;
+    width: 44%;
+    background: #ce0e2d;
+    color: white;
+    font-size: 1.6rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.modal-body.contact-body p{
+      text-align: center;
+}
+.doorStation .closedoor , .doorStation .opendoor{
+  cursor: pointer;
+}
+/*
+//1  phones*/
+@media (max-width: 575px) { 
+body.register-page{
+   background-image: url('../img/regist-mbl-bg.png') !important;
+}
+
+   img.d-block.w-100 {
+    height: 14em !important;
+}
+.nav-only-cell{
+  display: block !important;
+  }
+  .doorPage .main-area{    
+   /* margin-top:30% !important;*/
+   /* padding-top: 4.2rem !important;*/
+  }
+  .register.main-area{
+    margin-top:10% !important;
+  }
+  .right-partition {
+      margin: 0 8px 20px;
+      padding: 8px;
+      width: 95%;
+  }
+  .term-main-area{
+    width: 90% !important;
+  }
+  .stage {
+     /* background: url(../img/stageM.png) !important;
+      background-size: 100% 100% !important;
+      background-repeat: no-repeat !important;
+         padding-top: 85% !important;*/
+    padding-bottom: 2% !important;
+    padding-left: 30%;    
+    position: relative;
+  }
+  .stage-congrats{
+      /*background: url(../img/stageM-congrats.png) !important;
+      background-size: 100% 100% !important;   */
+  }
+  .doorContainer {
+    display: block;
+    margin-top: 5em;
+  }
+  
+  .congrats-msg {
+    position: absolute;
+    top: -15px;
+    left: -16rem;
+    padding: 27px 0 0 115px;
+    margin-top: 0rem !important;
+   }
+ .doorStation {
+    width: 245px !important;
+    height: 300px !important;
+    position: relative;
+    margin-left: -3.5rem;
+    cursor: pointer !important;
+}
+
+  .two-door-section{
+    margin-left: -10% !important;
+    margin-bottom: 20%;
+  }
+  .navbar-brand img {   
+        height: 6rem;
+    width: 7rem;
+  }
+  .navbar-inverse .navbar-collapse{
+  background: white;
+   border: none !important;
+    background-color: white;
+    box-shadow: 4px 2px 3px 0px #5f5b5b;
+}
+
+  .navbar-inverse .navbar-nav > li > a{
+     color: #d51a1b !important;
+  }
+  .main-area.stage{
+    background:none !important;
+  }
+  .main-area.stage-congrats{
+     background: url(../img/stage-congratsM.png) !important;  
+         background-size: 100% 110% !important; 
+  }
+
+  span.fire::before {
+    background: url(../img/fire.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    display: inline-block;
+    height: 180px;
+    width: 210px;
+    position: absolute;
+    right: 140px;
+    top: 2em;
+}
+  span.fire::after {
+    background: url(../img/fire.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    display: inline-block;
+    height: 180px;
+    width: 210px;
+    position: absolute;
+    left: 246px;
+    top: 2em;
+  }
+  .congrats-msg::before {
+        content: '';
+    background: url(../img/congratulations.svg);
+    height: 200px;
+    width: 432px;
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: 23%;
+    background-repeat: no-repeat;
+    background-size: 46%;
+    background-position: 25% 1%;
+}
+.happiness::before {
+    content: '';
+    display: inline-block;
+    background: url(../img/happ.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 46%;
+    position: absolute;
+    top: -86px;
+    left: 1.6rem;
+}
+  .banner-container {   
+      margin-top: -5rem !important;
+  }
+  .doorPage .footer-section{
+     position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+  }
+
+.navbar-inverse .navbar-nav > li > a{
+  cursor: pointer;
+}
+button.btn.btn-claim.btn-claim {
+    border-radius: 0.4rem;
+    width: 80%;
+    background: #ce0e2d;
+    color: white;
+    font-size: 1.6rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+
+}
+/*
+// 2 Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+ body.register-page{
+   background-image: url('../img/regist-mbl-bg.png') !important;
+}
+  .nav-only-cell{
+  display: block !important;
+  }
+  .doorPage .main-area{
+   /* margin-top:30% !important;*/
+  /* padding-top: 4.2rem !important;*/
+  }
+  .register.main-area{
+    margin-top:10% !important;
+  }
+  .term-main-area{    
+    width: 90% !important;
+  }
+  .doorStation {
+       width: 245px !important;
+    height: 300px !important;
+    position: relative;
+    margin-left: -3.5rem;
+}
+  .stage {
+     /* background: url(../img/stageM.png) !important;
+      background-size:100% 100% !important;
+      background-repeat: no-repeat !important;
+      padding-top: 85% !important;*/
+      padding-bottom: 2% !important;
+      padding-left: 31%;
+      position: relative;
+  }
+   .stage-congrats{
+      /*background: url(../img/stageM-congrats.png) !important;
+      background-size: 100% 100% !important; */  
+  }  
+  .doorContainer {
+    display: block;
+    margin-top: 5em;
+  }
+  .congrats-msg {
+    position: absolute;
+    top: -15px;
+    left: -154px;
+    padding: 27px 0 0 115px;
+    margin-top: 0rem !important;
+  }
+  .two-door-section{
+    margin-left: -10% !important;
+    margin-bottom: 20%;
+  }
+  .main-area{
+    margin-top:6%;
+  }
+  .navbar-brand img {   
+        height: 6rem;
+    width: 7rem;
+  }
+  .navbar-inverse .navbar-collapse{
+  background: white;
+   border: none !important;
+    background-color: white;
+    box-shadow: 4px 2px 3px 0px #5f5b5b;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+   color: #d51a1b !important;
+}
+
+  .main-area.stage{
+    background:none !important;
+  }
+  .main-area.stage-congrats{
+    background: url(../img/stage-congratsM.png) !important; 
+        background-size: 100% 110% !important;  
+  }
+  span.fire::before {
+    background: url(../img/fire.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    display: inline-block;
+    height: 180px;
+    width: 210px;
+    position: absolute;
+    right: 140px;
+    top: 2em;
+}
+  span.fire::after {
+    background: url(../img/fire.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    display: inline-block;
+    height: 180px;
+    width: 210px;
+    position: absolute;
+    left: 246px;
+     top: 2em;
+  }
+  .congrats-msg::before {
+        content: '';
+    background: url(../img/congratulations.svg);
+    height: 200px;
+        width: 432px;
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: 23%;
+    background-repeat: no-repeat;
+       background-size: 46%;
+    background-position: 25% 1%;
+}
+.happiness::before {
+    content: '';
+    display: inline-block;
+    background: url(../img/happ.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 46%;
+    position: absolute;
+    top: -86px;
+    left: 1.6rem;
+   }
+   .banner-container {   
+      margin-top: -5rem !important;
+  }
+ .doorPage .footer-section{
+     position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+  }
+}
+/*
+// 3 Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  body.register-page{
+   background-image: url('../img/regist-mbl-bg.png') !important;
+}
+  .nav-only-cell{
+  display: block !important;
+  }
+  .doorPage .main-area{
+    margin-top:10%;
+    padding-top: 0 !important;
+  }
+  .captcha-container{
+    max-width: 100%
+  } 
+  .nav-only-cell{
+    display: none !important;
+  }
+  body{
+    background-size: auto;
+  }
+  .navbar-brand img{
+    margin-left: 5em;
+   }
+   .center-border{
+   }
+   .main-area.stage{
+    background:none !important;
+  }
+  .main-area.stage-congrats{
+     background: url(../img/stage-congratsM.png) !important;  
+         background-size: 100% 110% !important;  
+  }
+  .banner-container {   
+      margin-top: -5rem !important;
+  }
+  .details .modal-lg {
+    width: 600px;
+  }
+ }
+/*
+// 4 Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+  body{
+    /*padding-bottom: 8%;*/
+  }
+  .main-area{
+    margin-top:0;
+    padding:4rem 5em;
+  }
+  .doorPage .main-area{    
+   padding-top: 0 !important;
+  }
+  .two-door-section{
+    margin-left:10%;
+  }
+  .navbar-brand img{
+    margin-left: 5em;
+   }
+   .center-border{
+   
+   }
+   .footer-section{
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+  }
+  .details .modal-lg {
+    width: 600px;
+  }
+ }
+/*
+// 5 Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  
+  body{
+   /* padding-bottom: 8%;*/
+  }
+  .main-area{
+    margin-top:0;
+    padding: 4rem 5em;
+  }
+  .doorPage .main-area{    
+   padding-top: 0 !important;
+  }
+  .two-door-section{
+    margin-left:10%;
+  }
+  .navbar-brand img{
+    margin-left: 5em;
+   }
+   .center-border{
+    
+    }
+  .footer-section{
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+  }
+  .details .modal-lg {
+    width: 600px;
+  }
+}
+@media (min-width: 992px){
+.modal-lg {
+    width: 1000px;
+}
+}
+
+/*form css*/
+input::placeholder{
+    color:#929699;
+    font-size:0.9em;
+}
+.red-t , .navbar-light .navbar-nav .nav-link{
+  color: #d51a1b !important;
+}
+.yellow-t{
+  color: #ffce7b !important;
+}
+.gray-t{
+  color:#4a4a4a !important;
+}
+.btn-submit{
+  border-radius: 0.2em; 
+  background-color: #d51a1b;
+  width: 100%;
+  color:white;
+}
+.err-msg{
+  background:#ffe1e5;
+  color: #e74c3c;
+      border-radius: 6em;
+    padding: 5px 36px;
+    text-align: center;
+}
+
+/* Gift Page */
+ .doorStation{
+    width: 370px;
+    height: 450px;
+    position: relative;
+
+  }
+   .doorStation .opendoor{
+   background: url(../img/open.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%
+  }
+  .doorStation .closedoor{
+    background:url('../img/close.png');
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%
+  }
+  .doorStation .opendoor{
+    background:url('../img/open.png');
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+  }
+  .prize{
+   background:url('../img/prize.png');
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 5%;
+    width: 5%; 
+        position: absolute;
+    top: 50%;
+    left: 44%;
+    opacity: 0;
+  }
+  .main-area.stage{
+    background: url(../img/stage.png);
+    background-size: 100% 64%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+  .main-area.stage-congrats{
+    background: url(../img/stage-congrats.png) ;
+    background-size: 100% 85% !important;
+    background-repeat: no-repeat;
+    background-position: 0 40%;
+  }
+  .congrats-msg {
+    visibility: hidden;
+    opacity: 0;
+  /*  font-family:ArialRoundedMT !important;*/
+    font-size: 2.2rem;
+    line-height: 1.15;
+  }
+
+  .btn-redirect{
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 0.3em 1.2em;
+    color: #d51a1b;
+  }
+  .redirect-msg{
+    color: #ffffff;
+  }
+  .section-redirect{
+     opacity: 0
+  }
+
+  .navbar-light .navbar-toggler-icon{
+    background-image: url('data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(213,26,27)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>'');
+
+  }
+
+  

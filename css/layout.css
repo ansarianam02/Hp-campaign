@@ -1,0 +1,81 @@
+html, body {
+    overflow: auto;
+}
+body{
+  font-family: SourceSansPro;
+  background: url(../img/bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+}
+body.doorPage{ 
+   background-image: url(../img/regist-mbl-bg-door.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.navbar-inverse .navbar-nav > li > a{
+  color: white !important;
+  cursor: pointer;
+}
+.navbar{
+  background: none !important;
+  background-color: transparent !important;
+} 
+.navbar-brand{
+      position: relative;
+    margin-left: 5%;
+}
+.navbar-brand img{
+    position: absolute;
+    top: 1px;
+}
+.navbar-inverse {
+  border: none !important;
+}
+.navbar-inverse .navbar-toggle{
+  border: none !important;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+  background:none !important;
+}
+li.nav-item{
+  text-align: right;
+}
+.err-msg{
+ /* margin-top: 4em !important;*/
+}
+.form-control{
+   color:#929699;
+}
+.left-partition{
+    padding: 0;
+}
+.right-partition{
+  background:#ffffff;
+  color:#4a4a4a;
+}
+.footer-copyright{
+  background:#ffce7b;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #d0021b !important;
+}
+.footer-copyright a{ 
+    color: #d0021b !important;
+}
+.container{  
+  height: 100vh;
+  overflow: auto;
+}
+.modal-header {
+    position: relative;
+}
+
+button.close {
+    position: absolute;
+    right: -8rem;
+    top: -7rem;
+}
+
+.modal-dialog {
+    margin: 7.75rem auto;
+}
