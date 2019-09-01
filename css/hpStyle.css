@@ -1,3 +1,58 @@
+.page-landing{
+  display: none
+}
+.page-winner{
+	display: none
+}
+.page-collage{
+	display: none;
+}
+.congo-entries-title{
+	color: #ffb81c;
+	font-size: 1.5rem;
+	position: relative;
+}
+.congo-entries-title span::after{
+	content: '';
+    background: url(../img/congo-l.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 6rem;
+    width: 7rem;
+    position: absolute;
+    right: 9rem;
+}
+.congo-entries-title span::before{
+	content: '';
+    background: url(../img/congo-r.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 6rem;
+    width: 7rem;
+    position: absolute;
+    left: 10rem;
+}
+.winner-entries{
+	padding-top:10rem;
+}
+.week-dropdown button{
+	color:#333333;
+	background: #d8d8d8;
+	font-weight: 550;
+}
+.winner-name{
+	color:#ffffff;
+}
+.winner-title{
+	color:#c5d0e6;
+}
+.collage-card{
+    background: #fff;
+    color: #000000 !important;
+    border: 4px solid white;
+    border-radius: 5px;
+    padding: 3rem 0;
+}
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 

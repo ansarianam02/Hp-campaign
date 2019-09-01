@@ -3,15 +3,25 @@ html, body {
 }
 body{
   font-family: SourceSansPro;
-  background: url(../img/bg.jpg);
+  background: url(../img/bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  /* height: 100vh; */
+  background-color: #01081f;
+  font-size: 1rem;
+  color: #ffffff;
 }
-body.doorPage{ 
-   background-image: url(../img/regist-mbl-bg-door.png);
-   background-size: cover;
-   background-repeat: no-repeat;
+
+.hp-h3{
+  font-size: 1.7rem;
+}
+.hp-h3{
+  font-size: 1.3rem;
+}
+.hp-h5{
+  font-size: 0.8rem;
+}
+.hp-h6{
+  font-size: 0.5rem;
 }
 .navbar-inverse .navbar-nav > li > a{
   color: white !important;
@@ -21,13 +31,19 @@ body.doorPage{
   background: none !important;
   background-color: transparent !important;
 } 
+.subscribe-container{
+  background:#151c32;
+}
+.get-started{
+  color: #3487d4
+}
 .navbar-brand{
       position: relative;
     margin-left: 5%;
 }
 .navbar-brand img{
-    position: absolute;
-    top: 1px;
+   /*position: absolute;
+    top: -30px;*/
 }
 .navbar-inverse {
   border: none !important;
@@ -54,15 +70,11 @@ li.nav-item{
   background:#ffffff;
   color:#4a4a4a;
 }
-.footer-copyright{
-  background:#ffce7b;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
-    color: #d0021b !important;
+.footer-section{
+  color: #7e8085 !important;
+  background: #151c32;
 }
-.footer-copyright a{ 
-    color: #d0021b !important;
-}
-.container{  
+.page-container{  
   height: 100vh;
   overflow: auto;
 }
@@ -78,4 +90,49 @@ button.close {
 
 .modal-dialog {
     margin: 7.75rem auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #c5d0e6;
+    letter-spacing: 0.9px;
+    font-weight: 550;
+}
+.navbar-light .navbar-nav .nav-link.selected {
+  color: #ffb81c !important;
+}
+
+.main-area h1{
+  color: #fff;
+}
+.main-area p,.page-title,.main-area .wont-spam{
+  color: #c5d0e6;
+}
+.main-area .wont-spam{
+  font-size: 1rem;
+}
+.title-text{
+   color: #ffffff;
+}
+.sub-title-text{
+   color: #7e8085;
+}
+.desc{
+  color: #c5d0e6;
+}
+.hp-rocket{
+ background: url(../img/hp-rocket.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 20rem;
+}
+button.btn.btn-submit {
+    background:#3487d4;
+    color:#ffffff;
+    font-size:13px;
+    padding:8px 18px 
+}
+.footer-section a {
+  color:#7e8085;    
+  font-size: 12px;
 }
