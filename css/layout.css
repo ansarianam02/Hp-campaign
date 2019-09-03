@@ -1,8 +1,12 @@
 html, body {
     overflow: auto;
 }
+@font-face {
+  font-family: myHPFont;
+  src: url(hp-simplified.ttf);
+}
 body{
-  font-family: SourceSansPro;
+  font-family: myHPFont;
   background: url(../img/bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -34,8 +38,11 @@ body{
 .subscribe-container{
   background:#151c32;
 }
-.get-started{
+.text-hp-blue{
   color: #3487d4
+}
+.text-hp-green{
+  color:#28ae62;
 }
 .navbar-brand{
       position: relative;
@@ -57,8 +64,14 @@ body{
 li.nav-item{
   text-align: right;
 }
-.err-msg{
- /* margin-top: 4em !important;*/
+.error-msg{
+ color: #d75a4a;
+ text-align: center;
+  background: #ec998b54;
+  border: 1px solid;
+  border-radius: 21px;
+  font-size: 14px;
+  padding: 2px 5px; 
 }
 .form-control{
    color:#929699;
@@ -80,8 +93,14 @@ li.nav-item{
 }
 .modal-header {
     position: relative;
+    background: #3487d4;
 }
-
+.modal-head-icon{
+  width:7%;
+}
+.modal-body{
+  color:#333333;
+}
 button.close {
     position: absolute;
     right: -8rem;
@@ -120,19 +139,24 @@ button.close {
   color: #c5d0e6;
 }
 .hp-rocket{
- background: url(../img/hp-rocket.png);
+    background: url(../img/hp-rocket.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     height: 20rem;
 }
 button.btn.btn-submit {
-    background:#3487d4;
-    color:#ffffff;
-    font-size:13px;
-    padding:8px 18px 
+   background:#3487d4;
+   color:#ffffff;
+   font-size:13px;
+   padding:8px 18px 
 }
 .footer-section a {
   color:#7e8085;    
   font-size: 12px;
+} 
+.input-group>.input-group-append>.input-group-text{
+   background:#3487d4;
+   color:#ffffff;
+   border-color: #3487d4 !important;
 }
