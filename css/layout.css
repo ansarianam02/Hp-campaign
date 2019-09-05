@@ -7,19 +7,27 @@ html, body {
 }
 body{
   font-family: myHPFont;
-  background: url(../img/bg.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-color: #01081f;
   font-size: 1rem;
   color: #ffffff;
 }
-
+.hp-bg{
+    background: url(../img/bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-color: #01081f; */
+}
+.top-img-col img{
+  height: 80%;
+}
 .hp-h3{
   font-size: 1.7rem;
 }
 .hp-h3{
   font-size: 1.3rem;
+}
+.hp-h4{
+  font-size: 1.0rem;
 }
 .hp-h5{
   font-size: 0.8rem;
@@ -43,6 +51,9 @@ body{
 }
 .text-hp-green{
   color:#28ae62;
+}
+.text-hp-red{
+  color:#e74c3c;
 }
 .navbar-brand{
       position: relative;
