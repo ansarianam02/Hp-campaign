@@ -19,8 +19,8 @@
 </head>
 
 <body class="register-page">
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
+  <div class="hp-bg"> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand pl-5" href="#">
       <!-- Navbar -->
       <img src="img/icon/icon.png" class="d-inline-block align-top" alt=""> 
@@ -57,13 +57,13 @@
   ------------------------------------------------- !-->
 
 <!--first partiton -->
-<div class="container main-area register mt-5 page-landing">
-  <div class="row center-border pt-5 chance-to-visit pb-5">  
+<div class="container main-area register page-landing">
+  <div class="row center-border pt-3 chance-to-visit pb-1">  
     <div class="col">
-      <h1 class="page-title">GET A CHANCE TO TAKE YOUR CHILD TO A U.S.
-        SPACE CENTER</h1>
+      <h2 class="page-title">GET A CHANCE TO TAKE YOUR CHILD TO A U.S.
+        SPACE CENTER</h2>
       <p class="mt-4 ">Buy an Original HP Ink Cartridge and participate in “Create A Collage” contest and get a chance to visit a space center in the USA. Weekly top 100 contestants will win a amazon echo dot. </p>
-      <div class="input-group mt-5 mb-3">
+      <div class="input-group mt-3 mb-1">
         <input type="text" class="form-control py-4" placeholder="Enter Mobile Number" aria-label="Recipient's username" aria-describedby="basic-addon2">
         <div class="input-group-append">
           <span class="input-group-text text-hp-blue" id="basic-addon2" data-toggle="modal" data-target="#getStartedModal">GET STARTED</span>
@@ -71,16 +71,20 @@
       </div>
       <p class="wont-spam">We promise we won’t spam you.</p>
     </div>
-    <div class="col">
+    <div class="col top-img-col">
         <img src="img/banner.png">
-    </div>
-
+    </div>    
+  </div>
+  <div class="row mx-auto next-arrow ">  
+    <div class="col text-center">  
+        <img src="img/favicon.png">
+    </div>        
   </div>
 </div>
 
  <!-- end first partition -->
 
-
+</div>
 <!--thanks for participation partiton -->
 <div class="container  main-area my-5 page-landing">
   <div class="row center-border pt-5 thanks-for-participation">  
@@ -288,7 +292,7 @@
 <!-- collage1 page ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 <!--WINNER partiton -->
-<div class="container register mt-5 page-collage mb-5">
+<div class="container register mt-5 page-collage mb-5 collage1">
   <div class="row">
     <div class="mx-auto col-md-4">
     <h4 class="page-title text-white text-center">
@@ -301,8 +305,8 @@
       <div class="text-center">
         <img src="img/echo-dots.png" class="w-25">
       </div>
-      <p class="mt-4 text-center px-5 py-3">
-        You have uploaded a bill which is pending for verification. Once verified will be able to upload your collage here. We will keep you posted on the same. </p>
+      <h4 class="mt-4 hp-h3 text-center px-5 py-3">
+        You have uploaded a bill which is pending for verification. Once verified will be able to upload your collage here. We will keep you posted on the same. </h4>
     </div>
   </div>
 </div>
@@ -312,9 +316,11 @@
 <!-- end collage1 page ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --> 
 
 
-<!-- collage3 page ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- collage2 & collage3 page ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
 <!--WINNER partiton -->
-<div class="container register mt-5 page-collage mb-5">
+<div class="container register mt-5 page-collage mb-5 collage3">
   <div class="row">
     <div class="mx-auto col-md-4">
     <h4 class="page-title text-white text-center">
@@ -326,6 +332,8 @@
     <div class="mx-auto col-md-6 collage-card ">      
       <h4 class="mt-4 text-center px-5 py-3 text-hp-green">
         Your uploaded invoice has been approved. You can now upload your collage. </h4>
+      <h4 class="mt-4 text-center px-5 py-3 text-hp-red">
+       Your uploaded invoice has been rejected. Kindly upload a new bill to  activate your account.</h4>  
       <div class="input-group mx-auto w-75 mt-4">
         <input type="text" class="form-control py-2" placeholder="Select a file or drop your collage image" aria-label="email" aria-describedby="basic-addon2">
         <div class="input-group-append">
@@ -346,7 +354,41 @@
 </div>
 <!--end WINNER partiton -->
 
-<!-- end collage3 page ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- end collage2 && collage3 page ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+<!-- collage5 page ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<!--upload success partiton -->
+<div class="container register mt-5 page-collage mb-5 collage5">
+  <div class="row">
+    <div class="mx-auto col-md-4">
+    <h4 class="page-title text-white text-center">
+          Welcome Vikas
+      </h4>
+    </div>
+  </div>
+  <div class="row center-border collage-card pt-5 pb-5 ">      
+      <div class="col-md-6 "> <img class="w-100" src="img/collage-sample.png"></div>
+      <div class="col-md-6  px-4"> 
+        <div class="hp-h4 text-hp-green"> You have successfully uploaded your collage. Keep a check on winners page to see the winners.</div>
+        <div class="mt-4 hp-h4 font-weight-bold">Collage title here </div>  
+        <p class="mt-3 mb-3"> Some description about the collage entered by the user. Some description about the collage entered by the user. Some description about the collage entered by the user. Some description about the collage entered by the user. Some description about the collage entered by the user. Some description about the collage entered by the user. </p>
+        <div class="mt-5 hp-h4 font-weight-bold"> Share this collage with your friends </div>  
+         <div class="share-icons d-inline-block mt-3"> 
+              <a class="ml-2">  <img src="img/fb.png"></a>
+              <a class="ml-2">  <img src="img/tt.png"></span>
+              <a class="ml-2">  <img src="img/db.png"></a>
+          </div>  
+    </div>
+  </div>
+</div>
+<!--end upload success partiton -->
+
+
+
+<!-- end collage5 page ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
 
 
 
@@ -422,6 +464,11 @@
         </div>
         <div class="col pl-5">
           <a href="">Share this contest on:</a>
+          <div class="share-icons d-inline-block ml-2"> 
+              <a class="ml-2">  <img src="img/fb.png"></a>
+              <a class="ml-2">  <img src="img/tt.png"></span>
+              <a class="ml-2">  <img src="img/db.png"></a>
+          </div>  
         </div>
       </div>
     </footer>
