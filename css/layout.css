@@ -106,11 +106,14 @@ li.nav-item{
     position: relative;
     background: #3487d4;
 }
-.modal-head-icon{
-  width:7%;
+.modal-content img {
+    width:75%
 }
 .modal-body{
   color:#333333;
+}
+.modal-content {
+    border-radius: 10px;
 }
 button.close {
     position: absolute;
@@ -170,4 +173,14 @@ button.btn.btn-submit {
    background:#3487d4;
    color:#ffffff;
    border-color: #3487d4 !important;
+}
+.hp-drop-down{
+  border-color: #3487d4;
+  background-color: #ffffff;
+  color: #6c757d;
+}
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 450px;
+    }
 }
