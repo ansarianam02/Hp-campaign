@@ -69,10 +69,20 @@
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) { 
+    .congo-entries-title span::after ,.congo-entries-title span::before{
+      content: '';
+      background: none !important;
+    }
+ }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+    .congo-entries-title span::after ,.congo-entries-title span::before{
+      content: '';
+      background: none !important;
+    }
+ }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
