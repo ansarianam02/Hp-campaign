@@ -314,5 +314,8 @@ button#dropdownMenuButton {
     .d-sm-block{
       display: block !important;
     }
-    
+    .navbar-brand {
+      margin-left: 0%; 
+      padding-left: 0rem !important;
+    }
 }
