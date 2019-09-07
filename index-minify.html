@@ -48,9 +48,9 @@
   ------------------------------------------------- !-->
 		<!--first partiton -->
 		<div class="container main-area register page-landing mt-5">
-			<div class="row" style="white-space: nowrap;">
+			<div class="row" style="white-space: nowrap; ;display: none">
 				<div class="col-md-12">
-					<div class="input-group-append " style="white-space: nowrap;display: none">
+					<div class="input-group-append " style="white-space: nowrap">
 					    <span class="input-group-text text-hp-blue" id="basic-addon2" data-toggle="modal" data-target="#getStartedModal1">GET STARTED 1</span>
 						<span class="input-group-text text-hp-blue" id="basic-addon2" data-toggle="modal" data-target="#getStartedModal2">GET STARTED 2</span>
 						 
@@ -408,7 +408,7 @@
 							</div>
 							<div class="mt-4 text-center mt-4 mb-4">
 								<div class="form-group">
-									<button type="submit" class="btn btn-submit w-100" data-toggle="modal" data-target="#getStartedModal2">NEXT</button>
+									<button type="submit" class="btn btn-submit w-100" data-dismiss="modal" data-toggle="modal" data-target="#getStartedModal2">NEXT</button>
 								</div>
 							</div>
 							<div class="error-msg mb-3">Error messages goes here</div>
@@ -447,7 +447,7 @@
 							</div>
 							<div class="mt-4 text-center mt-3 mb-4">
 								<div class="form-group">
-									<button type="submit" class="btn btn-submit w-100" data-toggle="modal" data-target="#getStartedModal3">Login</button>
+									<button type="submit" class="btn btn-submit w-100" data-dismiss="modal" data-toggle="modal" data-target="#getStartedModal3">Login</button>
 								</div>
 							</div>
 							<div class="error-msg mb-4">Error messages goes here</div>
@@ -491,7 +491,7 @@
 								</div>
 								<div class="mt-4 text-center mt-3 mb-4">
 									<div class="form-group">
-										<button type="submit" class="btn btn-submit w-100" data-toggle="modal" data-target="#getStartedModal4">PROCEED TO INVOICE UPLOAD</button>
+										<button type="submit" class="btn btn-submit w-100" data-dismiss="modal" data-toggle="modal" data-target="#getStartedModal4">PROCEED TO INVOICE UPLOAD</button>
 									</div>
 								</div>
 								<div class="error-msg mb-4">Error messages goes here</div>
@@ -532,7 +532,7 @@
 									<li>* Any blurred images of the invoices will be rejected</li>
 								</ul>
 								<div class="text-center mt-4 mb-4">
-									<button type="submit" class="btn btn-submit w-75 ">UPLOAD AND GET STARTED</button>
+									<button type="submit" data-dismiss="modal" class="btn btn-submit w-75 ">UPLOAD AND GET STARTED</button>
 								</div>
 								<div class="w-75 mx-auto justify-content-md-center">
 									<div class="error-msg mb-4">Error messages goes here</div>
