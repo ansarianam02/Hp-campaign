@@ -20,6 +20,10 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     /* background-color: #01081f; */
+    position: relative;
+}
+.hp-bg .container.page-landing {
+    padding-top: 6rem;
 }
 .navbar-light .navbar-toggler {
     color: #ffffff;
@@ -340,6 +344,9 @@ button#dropdownMenuButton {
   display: none !important;
 }
 @media (max-width: 576px){
+      .hp-bg .container.page-landing {
+        padding-top: 3rem;
+    }
     .congo-entries-title span::after ,.congo-entries-title span::before{
       content: '';
       background: none !important;
@@ -373,7 +380,6 @@ button#dropdownMenuButton {
       line-height: 1.5;
     }
     nav.navbar {
-      position: relative;
       padding: .5rem 1rem;
     }
     .login-for-sm {
