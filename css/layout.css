@@ -22,9 +22,10 @@ body{
     /* background-color: #01081f; */
 }
 .navbar-light .navbar-toggler {
-    color: rgb(255, 255, 255);
-    border-color: rgb(255, 250, 250);
+    color: #ffffff;
+    border-color: #ffffff;
     border: 2px solid #ffffff;
+
 }
 .navbar-toggler .icon-bar {
     background-color: #ffffff;
@@ -62,8 +63,10 @@ body{
   cursor: pointer;
 }
 .navbar{
-  background: none !important;
-  background-color: transparent !important;
+  background: #36075f !important;
+  /* background-color: transparent !important; */
+  box-shadow: 3px 1px 5px 0px #36075f;
+  padding: 0.1rem 1rem;
 } 
 .subscribe-container{
   background:#151c32;
@@ -87,6 +90,7 @@ body{
 .navbar-brand img{
    /*position: absolute;
     top: -30px;*/
+   /* background: #3487d4; */
 }
 .navbar-inverse {
   border: none !important;
@@ -353,5 +357,29 @@ button#dropdownMenuButton {
     }
     .hp-modal-sm.modal-dialog{
       width:380px !important;
+    }
+    button.close::after {
+      content: 'X';
+      position: absolute;
+      right: 0.1rem;
+      top: -2rem;
+      background: white;
+      border-radius: 50%;
+      height: 1.5rem;
+      width: 1.5rem;
+      z-index: 999999;
+      font-size: 1rem;
+      color: #3487d4;
+      line-height: 1.5;
+    }
+    nav.navbar {
+      position: relative;
+      padding: .5rem 1rem;
+    }
+    .login-for-sm {
+      display: flex !important; 
+      flex: 1;
+      flex-direction: row-reverse; 
+      padding-right: 1rem;
     }
 }
