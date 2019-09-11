@@ -71,7 +71,16 @@ body{
   /* background-color: transparent !important; */
   box-shadow: 3px 1px 5px 0px #36075f;
   padding: 0.1rem 1rem;
-} 
+}
+.navbar {
+    background: none !important;
+    background-color: transparent !important; 
+    padding: 0.1rem 1rem;
+}
+.navbar.fixed-top.bg-purple {
+    background: #36075f !important;
+    box-shadow: 3px 1px 5px 0px #36075f;    
+}
 .subscribe-container{
   background:#151c32;
 }
