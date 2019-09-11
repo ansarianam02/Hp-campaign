@@ -346,6 +346,9 @@ button#dropdownMenuButton {
 .d-sm-block{
   display: none !important;
 }
+.para-container p {
+    padding-left:1.4rem !important;
+}
 @media (max-width: 576px){
       .hp-bg .container.page-landing {
         padding-top: 3rem;
