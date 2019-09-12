@@ -82,6 +82,11 @@
       content: '';
       background: none !important;
     }
+    .download-count {
+        position: absolute;
+        right: -3.5rem;
+        top: 0.5rem;
+    }
  }
 
 // Large devices (desktops, 992px and up)

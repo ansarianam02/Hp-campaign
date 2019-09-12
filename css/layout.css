@@ -7,15 +7,24 @@ html, body {
 }
 body{
   font-family: myHPFont;
-  background-color: #01081f;
+  background-color: #130634;
   font-size: 1rem;
   color: #ffffff;
-  /* background: url(../img/bg-blur.png); */
+  /* background: url(../img/bg-blur.png); 
+  background-size: 100%;
+  background-repeat: repeat;*/
+}
+.secong-bg {
+  background: url(../img/bg-blur.png);
   background-size: 100%;
   background-repeat: repeat;
 }
 .f-w-800{
   font-weight: 800 !important;
+}
+.participate-page .next-arrow {
+    margin-top: 0rem !important;
+    margin-bottom: 3rem !important;
 }
 span#btn-started {
     background: #ffffff;
@@ -85,6 +94,7 @@ span#btn-started {
     background: none !important;
     background-color: transparent !important; 
     padding: 0.1rem 1rem;
+    padding-right: 4rem;
 }
 .navbar.fixed-top.bg-purple {
     background: #36075f !important;
@@ -248,9 +258,12 @@ button.btn.btn-submit {
     width: 1.25rem;
     height: 1.25rem;
 }
+.all-col-right{
+  text-align: right;
+}
 .download-count{
   position: absolute;
-  right: 0.5rem;
+  right: -6.5rem;
   top: 0.5rem;
 }
 .footer-section a {
@@ -413,4 +426,13 @@ button#dropdownMenuButton {
         margin-top: 3rem !important;
         /*margin-bottom: 3rem !important;*/
     }
+    .download-count{
+      position: relative;
+      right: 0;
+      top: 0
+    }
+    .all-col-right{
+      text-align: left;
+    }
 }
+
