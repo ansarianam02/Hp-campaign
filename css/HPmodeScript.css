@@ -1,0 +1,63 @@
+body{
+  background: none !important;	
+}
+.mode-landing{
+  background: #000000;
+  padding-top: 4rem !important
+}
+.border-curve{
+  border-radius: 6px;
+}
+.border-b-curve{
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.input-page-number{
+	width:12%;
+	margin:0 0.4rem; 
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /*height: 60px;*/ /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  box-shadow: 1px -1px 2px #b1a9a9;
+}
+.ham-text{
+	margin-bottom: 0 !important
+}
+.top-buffer {
+    margin-top: 20px;
+    border-bottom: 0.5px solid beige;
+}
+.progress {
+	height: 0.3rem
+}
+.mode-land2{
+	background: #e4d3d3 !important;
+}
+
+.progress-container{
+	background: #e4d3d3 !important;	
+}
+.progress-container > .row{
+	background: white
+}
+.page-border{
+	border:1px solid #b7aeae;
+	border-radius: 3px;
+}
+.pagination-center {
+	display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    color: #000000;
+}
+.pagination-container .page-link {
+	line-height: 0.75rem
+}
+.result-container button{
+	min-width:14rem;	
+}
