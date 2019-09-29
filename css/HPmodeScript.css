@@ -229,6 +229,9 @@ button.btn-all-entries{
     border: none !important;
     background: transparent !important;
 }
+.container.result-container button {
+    font-size: 0.8rem;
+}
 .dropdown-menu{
 	font-size: 0.8rem;
 }
