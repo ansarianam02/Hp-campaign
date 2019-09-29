@@ -1,9 +1,107 @@
 body{
-  background: none !important;	
+  background: #f6f7ff !important;	
+}
+.navbar{
+  padding:0 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 0.95rem !important;
+  color: #7e8085;
+}
+.nav-tabs .nav-link {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.blue-icon{
+  width: 20% !important;
+  height: 20% !important;
+  margin-top: 6% !important;	
+}
+.mode-bg{
+  background: #f6f7ff !important;	
+}
+.mode-landing-top {
+    background: url(../img/m-bg.png) no-repeat;
+    padding-top: 2rem !important;
+    background-position: 100% 100% !important;
+    background-size: 100% 250%;
+}
+.icon-clipboard{
+	position: relative;
+}
+.icon-clipboard::before{
+	content: '';
+    position: absolute;
+    left: -2rem;
+    background: url(../img/icon-clipboard.png) no-repeat;
+    width: 2.3rem;
+    height: 4rem;
+    background-size: contain;
+}
+.icon-gift{
+	position: relative;
+}
+.icon-gift::before{
+	content: '';
+    position: absolute;
+    left: -2rem;
+    background: url(../img/icon-medal.png) no-repeat;
+    width: 2.3rem;
+    height: 4rem;
+    background-size: contain;
+}
+
+
+.count-container > div {
+    border-right-color: #3486d4 !important;
+    border-right-style: solid;
+    border-right-width: 0.05rem;
+    padding: 1rem 0;
+    text-align: center;
+    border-left-width: 0;
+    background: white;
+}
+.box-right-border{
+	border-bottom-right-radius:0.5rem;
+	border-top-right-radius:0.5rem;
+	border-right: none !important;
+}
+.box-left-border{
+	border-bottom-left-radius:0.5rem;
+	border-top-left-radius:0.5rem;
+}
+.bg-white{
+	background: #ffffff !important;
+}
+.color-rejected{
+	color: #e74c3c !important;
+}
+.color-hold{
+	color: #fa6400 !important;
+}
+.color-complete{
+	color: #3486d4 !important;
+}
+.color-positive{
+	color: #333333 !important;
+}
+.color-p-current{
+	color:#28ae62 !important;
+}
+.color-p-hold{
+	color: #fa6400 !important
+}
+.color-black1{
+	color: #333333 !important;
+}
+.color-gray1{
+	color: #6d7278
 }
 .mode-landing{
-  background: #000000;
-  padding-top: 4rem !important
+  background: url(../img/m-bg.png)  no-repeat;
+  padding-top: 4rem !important;
+  background-position: 50% 50% !important;
+  background-size: 100% 100%;
 }
 .border-curve{
   border-radius: 6px;
@@ -20,10 +118,12 @@ body{
   position: absolute;
   bottom: 0;
   width: 100%;
-  /*height: 60px;*/ /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
-  background-color: #f5f5f5;
-  box-shadow: 1px -1px 2px #b1a9a9;
+  /* height: 60px; */
+  line-height: 60px;
+  background-color: #f5f5f5;-	
+}
+.footer-section{
+   box-shadow: 1px -1px 8px 0px #c3c6caad;
 }
 .ham-text{
 	margin-bottom: 0 !important
@@ -36,17 +136,20 @@ body{
 	height: 0.3rem
 }
 .mode-land2{
-	background: #e4d3d3 !important;
+	background: #f6f7ff !important;
 }
 
 .progress-container{
-	background: #e4d3d3 !important;	
+	background: #ffffff !important;	
+}
+.gift-container .nav-tabs{
+	width: 100%;
 }
 .progress-container > .row{
 	background: white
 }
 .page-border{
-	border:1px solid #b7aeae;
+	/*border:1px solid #b7aeae;*/
 	border-radius: 3px;
 }
 .pagination-center {
@@ -60,4 +163,129 @@ body{
 }
 .result-container button{
 	min-width:14rem;	
+}
+.progress-bar{
+	background: #3486d4;
+}
+.btn-start-rate {
+    background-color: #3486d4;
+    border-color: #3486d4;
+    font-size: 0.8rem !important;
+    border-radius: 2rem !important;
+    padding: 0.3rem 1.5rem;
+    color: #ffffff;
+}
+.progress{
+	background: #d8d8d8 !important;
+	height: 0.5rem;
+}
+.status-table table{
+   border: 0.1px solid #979797;
+   font-size: 0.8rem;
+}
+.table-head{
+	background: #eff3f6;
+}
+button.btn.btn-filter.dropdown-toggle {
+    background: #ffffff;
+    color: #9b9b9b;
+    border: 1px solid #9b9b9b;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+ul.pagination {
+    font-size: 0.8rem;
+}
+
+/*search css*/
+/* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+.has-search {
+	display: inline-block;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+    width: 14rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+button.btn-all-entries{
+    border: none !important;
+    background: transparent !important;
+}
+.dropdown-menu{
+	font-size: 0.8rem;
+}
+.img-card{
+	position: relative;
+}
+.btn-action-holder {
+    position: absolute;
+    bottom: 4rem;
+    left: 1.8rem;
+}
+.img-card button{
+    font-size: 0.8rem;
+}
+.img-description{
+	font-size: 0.9rem;
+}
+.card p.card-head {
+    background: #007bff;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-top: 0.4rem;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+.card button{
+	font-size: 0.8rem;
+}
+.card .btn-outline-danger{
+	border: none;
+}
+.card {
+    border-radius: 0.5rem;
+}
+.rate-modal .card{    
+    border: none !important;
+    box-shadow: none !important;
+}
+.star-card {
+	font-size: 0.7rem !important;
+}
+.star-rate{}
+.star-rate-empty {}
+.star-rate-filled{}
+.checked {
+  color: #efce4a;
+}
+table.table {
+    border-right: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
+
+@media (min-width: 576px){
+.rate-modal .modal-dialog {
+    max-width: 650px;
+}
 }
