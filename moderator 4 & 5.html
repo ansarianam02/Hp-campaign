@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HP Partner</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="icon" href="img/favicon.png" type="image/x-icon">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- <script src="js/bootstrap.min.js"></script> -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+</head>
+
+<body class="mode-land2">
+		<nav class="navbar navbar-expand-lg navbar-light bg-white pr-5">
+			<ul class="nav navbar-nav navbar-logo pl-4">
+			    <img src="img/icon/blue-icon.png" class="d-inline-block blue-icon" alt="">
+		        <li class="nav-item">
+		           <a class="nav-link text-left text-dark" href="#">Contest  <br/>Moderator Login</a>
+		         </li>
+		    </ul>	
+			<!-- As a link -->
+			<div class="d-inline-block d-sm-block login-for-sm">
+			  <a class="text-white h5 " href="#">Login</a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">	<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>			
+
+			<div class="collapse navbar-collapse text-dark" id="navbarNavDropdown">
+				<ul class="navbar-nav ml-auto pr-5">
+					<li class="nav-item  "> <a class="nav-link " href="#">contest ruless</a>
+					</li>
+					<li class="nav-item "> <a class="nav-link" href="#">FAQ</a>
+					</li>
+					</li>
+					<li class="nav-item "> <a class="nav-link" href="#">Documents</a>
+					</li>
+					<li class="nav-item "> <a class="nav-link color-complete" href="#">Sample rating</a>
+						<li class="nav-item d-md-block"> <a class="nav-link selected" href="#">LOGOUT</a>
+						</li>
+				</ul>
+			</div>
+		</nav>
+		
+	<div class="container-fluid main-area register mode-landing-top py-5 px-5">
+		<div class="row mx-5">
+			<p>
+				<span class="text-white">&larr; &nbsp;&nbsp;&nbsp;</span><span class="hp-h5">Go back</span><br/>
+				<span class="hp-h3 text-white font-weight-bold">Entry# 43 of 10,345 in all entries</span>
+			</p>			
+		</div>
+			
+	</div>
+
+	<!-- per img view -->
+	<div class="container result-container mt-3">
+		<div class="row">
+			<div class="col-md-8">
+				<img class="w-100" src="img/gallery1.jpg"  data-toggle="modal" data-target="#lightbox">
+			</div>
+			<div class="col-md-4">
+				<p>Status: In all entries</p>
+				<button type="button" class="btn btn-primary mt-2">SHORTLIST THIS ENTRY</button><br/>
+				<button type="button" class="btn btn-secondary mt-2">HOLD THIS ENTRY</button><br/>
+				<button type="button" class="btn btn-success mt-2">REMOVE THIS ENTRY</button><br/>
+				<button type="button" class="btn btn-danger mt-2">CONFIRM THIS ENTRY</button><br/>
+				<p class="hp-h4 mt-3 color-complete"> Add comment (0)</p>
+				<p class="hp-h4 color-black1">Score <br/> 
+					<span class="font-italic">
+						to be displayed after rating	
+					</span>
+				</p>
+				<p class="hp-h4 color-black1">Rate <br/> 
+					<span class="font-italic">
+						to be displayed after rating	
+					</span>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade carousal-modal" id="lightbox">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal"></button>
+						<div class="modal-body">
+							<img class="d-block" src="img/gallery1.jpg" alt="First slide">
+						</div>
+						<!-- /.modal-body -->
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+	<!-- end per img view -->
+
+	<!-- star box-->
+	 <div class="container mt-4">
+
+	      <div class="row">
+	      	<div class="col-md-8 ">
+	          <div class="card star-card mb-4 shadow-sm text-dark">	          	      
+	          	<p class="card-head pl-3">Rate this entry (only for confirmed entries)</p>
+	             <p class="text-center mt-3 hp-h5">Scale of 1 - 10 (1 being lowest and 10 being highest)</p>
+	              <div class="col-md-12 px-4">
+	              <div class="row mt-3 pl-3 star-row">
+	             	<div class="col-md-2">Parameters</div>
+	             	<div class="col-md-1">1</div>
+	             	<div class="col-md-1">2</div>
+	             	<div class="col-md-1">3</div>
+	             	<div class="col-md-1">4</div>
+	             	<div class="col-md-1">5</div>
+	             	<div class="col-md-1">6</div>
+	             	<div class="col-md-1">7</div>
+	             	<div class="col-md-1">8</div>
+	             	<div class="col-md-1">9</div>
+	             	<div class="col-md-1">10</div>
+
+	             </div>
+	             <div class="row mt-3 pl-3 star-row">
+	             	<div class="col-md-2">Creativity</div>
+	             	<div class="col-md-1"><span class="fa fa-star checked"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star checked"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             </div>
+	             <div class="row mt-3 pl-3 star-row">
+	             	<div class="col-md-2">Sustainability</div>
+	             	<div class="col-md-1"><span class="fa fa-star checked"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star checked"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             </div>
+	             <div class="row mt-3 pl-3 star-row">
+	             	<div class="col-md-2">Usage of Colours</div>
+	             	<div class="col-md-1"><span class="fa fa-star checked"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star checked"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             </div>
+	             <div class="row mt-3 pl-3 star-row">
+	             	<div class="col-md-2">Sustainability</div>
+	             	<div class="col-md-1"><span class="fa fa-star checked"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star checked"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             </div>
+	             <div class="row mt-3 pl-3 star-row">
+	             	<div class="col-md-2"> Creativity</div>
+	             	<div class="col-md-1"><span class="fa fa-star checked"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star checked"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             </div>
+	             <div class="row mt-3 pl-3 mb-4 star-row">
+	             	<div class="col-md-2">Creativity</div>
+	             	<div class="col-md-1"><span class="fa fa-star checked"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star checked"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             	<div class="col-md-1"><span class="fa fa-star"></span></div>
+	             </div>
+	             
+	             </div>
+				 <div class="d-flexd-flex float-right mt-5 mb-3 text-right pr-3">
+	                <div class="">
+	                  <button type="button" class="btn btn-sm btn-outline-danger">CANCEL</button>
+	                  <button type="button" class="ml-3 
+	                  btn btn-primary">SUBMIT</button>
+	                </div>	                
+	              </div>	            
+	          </div>
+	        </div>
+
+	        <div class="col-md-4">
+	          <div class="card mb-4 shadow-sm">	            
+	          	<p class="card-head pl-3">Add comments</p>
+	            <div class="card-body text-dark">
+	               <div class="form-group">
+				      <textarea class="form-control" rows="2" id="comment"></textarea>
+				  </div>		
+	              <div class="d-flexd-flex float-right">
+	                <div class="btn-group">
+	                  <button type="button" class="btn btn-sm btn-outline-danger">CANCEL</button>
+	                  <button type="button" class="btn btn-primary">SUBMIT</button>
+	                </div>	                
+	              </div>
+	              <br/>
+	              <p>
+	              	<div class="hp-h5 mt-1 color-gray1">13th Sep 2019, 15:54 by Moderator 1</div>
+	              	<div class="hp-h4">This is a good entry and must be carried forward</div>
+	              </p>
+	              <p>
+	              	<div class="hp-h5 mt-3 color-gray1">13th Sep 2019, 15:54 by Moderator 1</div>
+	              	<div class="hp-h4">This is a good entry and must be carried forward</div>
+	              </p>
+	              <p>
+	              	<div class="hp-h5 mt-3 color-gray1">13th Sep 2019, 15:54 by Moderator 1</div>
+	              	<div class="hp-h4">This is a good entry and must be carried forward</div>
+	              </p>		              	              
+	            </div>
+	          </div>
+	        </div>        
+	    </div>
+
+	</div>
+	<!-- end star box-->
+	<div class="container img-description mt-4 text-dark font-black1">
+		<div class="row">
+			<p class="col-md-12 hp-h4">Category</p> <br/>
+			<p class="col-md-12 font-weight-bold">Affordable & Clean Energy </p>			
+		</div>
+
+		<div class="row">
+			<p class="col-md-12 hp-h4">Description</p>
+			<p class="col-md-12 font-weight-bold">I hate peeping Toms. For one thing they usually step all over the hedges and plants on the side of someone’s house killing them and setting back the vegetation’s gardener countless time and effort. Another thing that I don’t really like about them is that they’re such sideline actors, lacking the abilities to participate actively, that I just can’t offer them any respect, whatsoever. Finally, I hate peeping Toms because of the very nature of their field. What is that nature? Its one of intrusiveness. And intrusive, unwelcome company is intolerable in any form. This leads me to internet advertising trends. </p>
+			
+		</div>
+		<div class="row">
+			<p class="col-md-12 hp-h4">Submitted by</p>
+			<p class="col-md-12 font-weight-bold">John Peterson</p>			
+		</div>
+		<div class="row">
+			<p class="col-md-12 hp-h4">Email</p>
+			<p class="col-md-12 font-weight-bold">john.peterson@bigcity.in</p>			
+		</div>
+		<div class="row">
+			<p class="col-md-12 hp-h4">City</p>
+			<p class="col-md-12 font-weight-bold">Mumbai</p>
+			
+		</div>
+		<div class="row">
+			<p class="col-md-12 hp-h4">Contact</p>
+			<p class="col-md-12 font-weight-bold">9876543210</p>
+			
+		</div>	
+	</div>
+
+
+	<!--end first participation partiton -->
+	<section class="footer-section mt-4 py-2 px-5 bg-light">
+		<div class="container">
+			<!-- Footer -->
+			<footer>
+				<div class="row py-2">
+					<div class="col-md-6"> <a href="">BigCity Promotions Pvt. Ltd.</a>
+						<a class="pl-3" href="">Privacy & Terms</a>
+						<a class="pl-3" href="">Contact Us</a>
+					</div>
+					<div class="col-md-6 text-right">
+						<div class="share-icons d-inline-block ml-2">
+							<a class="ml-2">
+								<img src="img/fb.png" />
+							</a>
+							<a class="ml-2">
+								<img src="img/tt.png" />
+								</span>
+								<a class="ml-2">
+									<img src="img/db.png" />
+								</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- Footer -->
+		</div>
+	</section>
+	<script type="text/javascript" src="js/HPmodeScript.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/hpStyle.css">
+	<link rel="stylesheet" type="text/css" href="css/HPmodeScript.css">
+	<!-- Font Awesome Icon Library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</body>
+
+</html>
